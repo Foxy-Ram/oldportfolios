@@ -14,26 +14,39 @@
         }
         h1{
             text-align: center;
-            background-color:rgb(249, 249, 233);
+            background-color:rgba(249, 249, 233, 0.60);
             padding: 10px 0px;
+            border-radius: 50px;
+            margin: 20px 50px;
+            
         }
         h1:hover{
             transform: scale(0.95);
          }
-        div{
+        div.one{
             font-family:monospace;
             font-size: 20px;
-            margin-top: 15%;
-            
+            margin-top: 12%;
+           
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            border: 5px solid cadetblue;
+        }
+        div.two{
+            border: 5px solid cadetblue;
+            width: 50%;
         }
     </style>
 </head>
 <body>
-    <div>
-        <a href="oldPo/main.html"><h1 style="color:brown;">Portfolio <sub>v1.0.0</sub></h1></a>
-        <br>
-        <br>
-        <a href="newPo/main.html"><h1 style="color: cadetblue;">Portfolio <sub>v2.0.0</sub></h1></a>
+    <div class="one">
+        <div class="two">
+            <a href="oldPo/main.html"><h1 style="color:brown;">Portfolio <sub>v1.0.0</sub></h1></a>
+            <br>
+            <br>
+            <a href="newPo/main.html"><h1 style="color:darkkhaki ;">Portfolio <sub>v2.0.0</sub></h1></a>
+        </div>    
     </div>
 </body>
 </html>
